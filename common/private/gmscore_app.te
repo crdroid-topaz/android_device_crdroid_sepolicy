@@ -1,0 +1,2 @@
+allow gmscore_app traced:unix_stream_socket connectto;
+allow gmscore_app traced_producer_socket:sock_file { read write open getattr };
